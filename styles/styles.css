@@ -82,6 +82,10 @@ img {
 }
 
 .button-accent {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  width: 140px;
   color: #ffffff;
   background-color: #7db54f;
 }
@@ -400,9 +404,8 @@ img {
   text-align: right;
 }
 
-.htmlacademy-link {
-  /* max-width: 115px; */
-}
+/* .htmlacademy-link {
+  /* max-width: 115px; */ */
 
 /* кнопки каталога */
 
@@ -486,16 +489,24 @@ img {
 }
 
 .hotel-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 340px); 
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 34px;
   padding: 0;
-  list-style: none;
+  gap: 18px 10px;
 }
 
 .hotel-card {
-  width: 33.33%;
-}
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column;  */
+  flex-wrap: wrap;
+  /* flex-grow: 1;
+  /* display: block;
+  box-sizing: border-box; */
+} 
 
 .hotel-number {
   margin-top: 30px;
@@ -515,6 +526,7 @@ img {
 }
 
 .hotel-card-price {
+  width: 143px;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -522,17 +534,30 @@ img {
 }
 
 .hotel-card-name {
+  margin-bottom: 16px;
+  width: 133px;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #333333;
 }
 
+.hotel-card-button.button-secondary{
+  width: 133px;
+  margin-right: 26px;
+}
+
+.hotel-card-button.button-third {
+  width: 140px;
+}
+
 .hotel-card-rating {
+  width: 160px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  
 }
 
 .hotel-results {
@@ -606,5 +631,6 @@ img {
 }
 
 /* футер */
+}
 
 
