@@ -279,6 +279,7 @@ img {
 }
 
 .page-logo-wrap {
+  position: relative;
   width: 139px;
   height: 70px;
   margin-right: 30px;
