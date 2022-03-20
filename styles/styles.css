@@ -104,7 +104,7 @@ img {
 
 .button-link.appointment-link:focus {
   background-color: #615048;
-  box-shadow: inset 0 0 0 3px #83b3d3;
+  border: 3px solid #83b3d3;
 }
 
 .button-secondary {
