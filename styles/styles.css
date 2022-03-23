@@ -606,7 +606,7 @@ body {
   box-shadow: inset 0 0 0 3px #83b3d3;
 }
 
-.newsletter-field:invalid {
+.newsletter-field-invalid {
   background-color: #e6e6e6;
   box-shadow: inset 0 0 0 2px #ff5757;
 }
